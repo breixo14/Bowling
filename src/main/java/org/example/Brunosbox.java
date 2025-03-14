@@ -111,9 +111,31 @@ public class Brunosbox {
          * puntos obtenidos por cada pugil en cada round.
          * Se llaman round score.
          */
+        /*
+         * Calcula el final score o puntuación total
+         * de cada pugil y muestralo en la tarjeta.
+         */
 
-        
+        /*
+         * Calcula los puntos acumulados en cada
+         * round de cada pugil y muestralo en la tarjeta.
+         * Se llaman score total.
+         */
+
+        whiteScoreCard.loadJudgeScoreCard(data[0]);
+        System.out.println(whiteScoreCard);
+
+        /**
+         * Calcula el final score o puntuación total
+         * de cada pugil y muestralo en la tarjeta.
+         */
+
+        System.out.println("\t FINAL SCORE: " + whiteScoreCard.getRedBoxerFinalScore() +
+                " - " + whiteScoreCard.getBlueBoxerFinalScore() + " FINAL SCORE");
+
+        /**
     }
+
 
 }
 
